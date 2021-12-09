@@ -4,3 +4,15 @@ html,
 body {
   margin: 0px;
 }
+
+mat-grid-tile {
+  background: lightblue;
+}
+
+mat-grid-list {
+  height: 100vh;
+}
+
+mat-grid-tile.inner {
+  background: #ccc;
+}

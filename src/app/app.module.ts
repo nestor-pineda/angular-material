@@ -5,10 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule } from '@angular/material/button';
-import { MatInputModule } from '@angular/material/input';
-import { MatExpansionModule } from '@angular/material/expansion';
-import { MatStepperModule } from '@angular/material/stepper';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent],
@@ -16,10 +13,7 @@ import { MatStepperModule } from '@angular/material/stepper';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule,
-    MatInputModule,
-    MatExpansionModule,
-    MatStepperModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

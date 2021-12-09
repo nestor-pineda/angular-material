@@ -1,0 +1,14 @@
+<header>
+  <div class="contact">
+    <p class="contact-info">{{ headerComponent.contact.email }}</p>
+    <p class="contact-info">{{ headerComponent.contact.tel }}</p>
+  </div>
+  <div class="logo-nav">
+    <img class="logo" src="{{ headerComponent.logo.img }}" />
+    <nav>
+      <li class="nav-link" *ngFor="let link of headerComponent.nav.links">
+        {{ link }}
+      </li>
+    </nav>
+  </div>
+</header>

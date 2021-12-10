@@ -1,0 +1,7 @@
+<p>
+  Today we drink: <strong>{{ beverage }}</strong>
+</p>
+
+<input type="text" #newBeverageInput id="bev" />
+
+<button (click)="addNewBeverage(newBeverageInput.value)">My button</button>

@@ -1,0 +1,13 @@
+<ul>
+  <li *ngFor="let item of beverages">{{ item }}</li>
+</ul>
+
+<app-son
+  [beverage]="fathersBeverage"
+  (newBeverage)="addBeverageToArray($event)"
+></app-son>
+
+<!--
+To
+
+-->
